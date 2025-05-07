@@ -68,7 +68,7 @@
 }
   return true;
 }
-  function validarFormulario() {
+  function validacaoFormularioFormulario() {
    const nome = document.getElementById("nome").value;
    const email = document.getElementById("email").value;
    const mensagem = document.getElementById("mensagem").value;
@@ -93,7 +93,7 @@
 <body>
   <div class="formulario">
   <h2>FORMULÁRIO</h2>
-  <form onsubmit="return validarFormulario()">
+  <form onsubmit="return validacaoFormulario()">
   <label for="nome">Nome completo:</label>
   <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
   
