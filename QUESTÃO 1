@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apresentação Adriano Ferreira</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS';
+      background: #808080; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100;
+      margin: 30;
+    }
+
+    .card-container {
+      background: #eee;
+      padding: 55px;
+      border-radius: 22px;
+      text-align: left;
+      box-shadow: 0 0 35px rgba(1, 0, 1, 0.3);
+      width: 260px;
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #42a5f5;
+      margin-bottom: 15px;
+      background: #cfd8dc;
+    }
+
+    h1 {
+      color: #00BFFF;
+      font-size: 26px;
+      margin: 10px 0;
+    }
+
+    h2 {
+      color: #000000;
+      font-size: 18px;
+      margin: 5px 0 18px;
+    }
+
+    p {
+      color: #546e7a;
+      font-size: 12px;
+      line-height: 1.8;
+      margin-bottom: 45px;
+    }
+
+    .skills-list, .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin: 15px 0;
+    }
+
+    .skills-list span, .social-links a {
+      background: #42a5f5;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 15px;
+      text-decoration: Comic;
+      font-size: 15px;
+    }
+
+    .social-links a {
+      background: none;
+      color: #FF00FF;
+      border: 5px solid #42a5f5;
+    }
+
+   
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="profile-image"></div>
+    <h1>Adriano Ferreira</h1>
+    <h2>Estudante de Análise e Desenvolvimento de Sistemas</h2>
+    <p>Olá, me chamo Adriano Ferreira, sou estudante de ADS. Busco estágio para fazer a transição da área em que atuo para área que estou me especializando. Atualmente estou intensificando meus estudos em Java, espero logo logo poder trabalhar com essa linguagem.</p>
+    <p>Matrícula: 202408152388 </p>
+    
+    <div class="social-links">
+      <a href="#">GitHub</a>
+      <a href="#">Telegram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+</body>
+</html>
