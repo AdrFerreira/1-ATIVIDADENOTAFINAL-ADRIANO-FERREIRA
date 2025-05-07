@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Tabela de Produtos</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
         table {
             width: 15%;
