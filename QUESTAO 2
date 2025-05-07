@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de Produtos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 15%;
+            margin: 10px;
+        }
+        th, td {
+            padding: 28px;
+            text-align: center;
+            border: 3px solid #eee;
+        }
+        th {
+            background-color: #DA70D6;
+            color: black;
+        }
+       
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Produtos Odontológicos</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Valor R$</th>
+            <th>Conteúdo</th>
+            <th>Categoria</th>
+        </tr>
+        <tr>
+            <td>Whiteness HP 35%</td>
+            <td>154,99</td>
+            <td>Kit com Espessante, Neutralize, Espátula, Placa para preparo do gel.</td>
+            <td>Clareamento Dental </td>
+        </tr>
+        <tr>
+            <td>Resina Estelite Omega PHS</td>
+            <td>528,90 </td>
+            <td>Embalagem com 1 unidade 4g.</td>
+            <td>Estética e Dentística</td>
+        </tr>
+        <tr>
+            <td>Grand Valo Ultradent</td>
+            <td>8.990.00</td>
+            <td>Acompanha 4 Baterias recarregáveis, 1 Fonte de alimentação, 50 Barreiras Protetoras.</td>
+            <td>Fotopolimerizador</td>
+        </tr>
+        <tr>
+            <td>Porta Agulha Mayo Hegar C/Widea QUINELATO</td>
+            <td>249,90</td>
+            <td>Embalagem com 1 unidade de 14cm.</td>
+            <td>Instrumental Odontológico</td>
+        </tr>
+    </table>
+</body>
+</html>
